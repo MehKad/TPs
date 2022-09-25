@@ -1,0 +1,90 @@
+.robots {
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, .left_arm, .torso, .right_arm, .left_leg, .right_leg {
+	background-color: blue;
+}
+
+.head { 
+    width: 300px; 
+	margin: 0 auto; 
+	height: 250px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+    display: flex;
+}
+
+.left_eye, .right_eye { 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 15px; 
+    background-color: white;  
+} 
+
+.left_eye { 
+    position: relative; 
+    top: 160px; 
+    left: 50px; 
+} 
+
+.right_eye { 
+    position: relative; 
+    top: 160px; 
+    left: 150px; 
+}
+
+.upper_body { 
+    width: 500px; 
+	height: 250px;
+	display: flex;
+    margin-left: 25px;
+} 
+
+.left_arm, .right_arm { 
+	width: 70px; 
+	height: 175px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 300px; 
+	height: 300px;
+	margin-right: 10px; 
+	margin-left: 10px; 
+	border-radius: 0 0 50px 50px;
+} 
+
+.lower_body { 
+	width: 300px; 
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 70px; 
+	height: 200px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 50px;
+} 
+
+.right_leg { 
+	margin-left: 60px; 
+}

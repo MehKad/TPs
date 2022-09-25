@@ -1,0 +1,25 @@
+div{
+    width: 250px;
+    height: 280px;
+    position: fixed;
+}
+#a{
+    background-color: yellow;
+    left: 100px;
+    top: 100px;
+}
+#b{
+    background-color: green;
+    left: 100px;
+    top: 50%;
+}
+#c{
+    background-color: blue;
+    left: 75%;
+    top: 100px;
+}
+#d{
+    background-color:red;
+    left: 75%;
+    top: 50%;
+}
